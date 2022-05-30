@@ -36,16 +36,16 @@
   display: flex;
 }
 .list-of-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .line-of-list, 
 .h3 {
-  list-style:none;
+  list-style: none;
 }
 .input, 
 .button{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -137,14 +137,14 @@
 
 /* Edit Task */
 .list-of-tasks .line-of-list .input[type="text"] {
-  display:none
+  display: none
 }
 
 .list-of-tasks .line-of-list.incomplete-tasks__edit-mode .input[type="text"] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list-of-tasks .line-of-list.incomplete-tasks__edit-mode .label {
-  display:none;
+  display: none;
 }
