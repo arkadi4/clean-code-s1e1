@@ -16,41 +16,41 @@
     </header>
     <main class="main">
       <p id="main__add-item">
-        <label for="label new-task">Add Item</label>
+        <label for="new-task" class="label">Add Item</label>
         <div class="task-row-wrapper">
           <input id="new-task" class="input task" type="text">
           <button class="button task-button">Add</button>
         </div>
       </p>
       <h3 class="h3">Todo</h3>
-      <ul class="list-of-tasks incomplete-tasks">
+      <ul class="list-of-tasks incomplete-tasks" id="incomplete-tasks">
         <li class="line-of-list incomplete-tasks__line">
           <input class="input" type="checkbox">
           <label class="label task">Pay Bills</label>
           <input class="input task" type="text" >
-          <button class="button task-button">Edit</button>
-          <button class="button delete-button">
+          <button class="button task-button edit">Edit</button>
+          <button class="button delete-button delete">
             <img src="./remove.svg" alt="remove arrow" class="img">
           </button>
         </li>
         <li class="line-of-list incomplete-tasks__edit-mode">
-          <input class="input"type="checkbox">
+          <input class="input" type="checkbox">
           <label class="label task">Go Shopping</label>
           <input class="input task" type="text" value="Go Shopping">
-          <button class="button task-button">Save</button>
-          <button class="button delete-button">
+          <button class="button task-button edit">Save</button>
+          <button class="button delete-button delete">
             <img src="./remove.svg" alt="remove arrow" class="img">
           </button>
         </li>
       </ul>
       <h3 class="h3">Completed</h3>
-      <ul class="list-of-tasks completed-tasks">
+      <ul class="list-of-tasks completed-tasks" id="completed-tasks">
         <li class="line-of-list completed-tasks__line">
           <input class="input" type="checkbox" checked>
           <label class="label task">See the Doctor</label>
           <input class="input task" type="text" >
-          <button class="button task-button">Edit</button>
-          <button class="button delete-button">
+          <button class="button task-button edit">Edit</button>
+          <button class="button delete-button delete">
             <img src="./remove.svg" alt="remove arrow" class="img">
           </button>
         </li>
