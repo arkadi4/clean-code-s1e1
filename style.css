@@ -35,14 +35,16 @@
 .task-row-wrapper {
   display: flex;
 }
+
 .list-of-tasks {
   margin: 0;
   padding: 0px;
 }
-.line-of-list, 
-.h3 {
+
+.line-of-list, .h3 {
   list-style: none;
 }
+
 .input, 
 .button{
   outline: none;
