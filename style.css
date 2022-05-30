@@ -10,7 +10,7 @@
   display: block;
   text-align: right;
 }
-.header img {
+.header .img {
   width: 100%;
 }
 .header__more-inf {
@@ -41,7 +41,8 @@
   padding: 0px;
 }
 
-.line-of-list, .h3 {
+.line-of-list, 
+.h3 {
   list-style: none;
 }
 
@@ -122,12 +123,12 @@
 .line-of-list >  .input[type="text"] {
   width: 226px;
 }
-.button.delete-button img {
+.button.delete-button .img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.button.delete-button img:hover {
+.button.delete-button .img:hover {
   transform: rotateZ(0);
 }
 
