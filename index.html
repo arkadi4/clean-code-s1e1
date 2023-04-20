@@ -6,7 +6,7 @@
           rel="stylesheet">
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
-  <body>
+  <body class="body">
     <div class="header">
       <img class="header__image" src="./eisenhower-matrix.jpg">
       <a class="header__link" 
@@ -14,37 +14,43 @@
     </div>
     <div class="main-block">
       <p id="section-for-adding">
-        <label for="section-for-adding__input">Add Item</label>
+        <label class="section-for-adding__label label" for="section-for-adding__input">Add Item</label>
         <div class="section-for-adding__row-wrapper">
-          <input class="task-block__input" id="section-for-adding__input" type="text">
-          <button>Add</button>
+          <input class="section-for-adding__input input" id="section-for-adding__input" type="text">
+          <button class="section-for-adding__add-button button">Add</button>
         </div>
       </p>
-      <h3>Todo</h3>
+      <h3 class="task-block__title">Todo</h3>
       <ul class="task-block" id="incompleteTasks">
-        <li>
-          <input class="task-block__chechbox-input" type="checkbox">
-          <label class="task-block__label">Pay Bills</label>
-          <input class="task-block__input" type="text">
-          <button class="task-block__edit-button">Edit</button>
-          <button class="task-block__delete-button"><img src="./remove.svg"></button>
+        <li class="task-block__list-item">
+          <input class="task-block__chechbox-input input" type="checkbox">
+          <label class="task-block__label label">Pay Bills</label>
+          <input class="task-block__input input" type="text">
+          <button class="task-block__edit-button button">Edit</button>
+          <button class="task-block__delete-button button">
+            <img src="./remove.svg" class="task-block__delete-button-image">
+          </button>
         </li>
-        <li class="editMode">
-          <input class="task-block__chechbox-input" type="checkbox">
-          <label class="task-block__label">Go Shopping</label>
-          <input class="task-block__input" type="text" value="Go Shopping">
-          <button class="task-block__edit-button">Save</button>
-          <button class="task-block__delete-button"><img src="./remove.svg"></button>
+        <li class="task-block__list-item task-block__list-item_editMode">
+          <input class="task-block__chechbox-input input" type="checkbox">
+          <label class="task-block__label label">Go Shopping</label>
+          <input class="task-block__input input" type="text" value="Go Shopping">
+          <button class="task-block__edit-button button">Save</button>
+          <button class="task-block__delete-button button">
+            <img src="./remove.svg" class="task-block__delete-button-image">
+          </button>
         </li>
       </ul>
-      <h3>Completed</h3>
+      <h3 class="task-block__title">Completed</h3>
       <ul class="task-block" id="completed-tasks">
-        <li>
-          <input class="task-block__chechbox-input" type="checkbox" checked>
-          <label class="task-block__label">See the Doctor</label>
-          <input class="task-block__input" type="text">
-          <button class="task-block__edit-button">Edit</button>
-          <button class="task-block__delete-button"><img src="./remove.svg"></button>
+        <li class="task-block__list-item">
+          <input class="task-block__chechbox-input input" type="checkbox" checked>
+          <label class="task-block__label label">See the Doctor</label>
+          <input class="task-block__input input" type="text">
+          <button class="task-block__edit-button button">Edit</button>
+          <button class="task-block__delete-button button">
+            <img src="./remove.svg" class="task-block__delete-button-image">
+          </button>
         </li>
       </ul>
     </div>
