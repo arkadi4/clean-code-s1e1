@@ -73,7 +73,7 @@ var editTask=function(){
   var editInput=listItem.querySelector('.input[type=text]');
   var label=listItem.querySelector(".label");
   var editBtn=listItem.querySelector(".task-block__edit-button");
-  var containsClass=listItem.classList.contains("task-block__list-item_editMode");
+  var containsClass=listItem.classList.contains("task-block__list-item_edit-mode");
   //If class of the parent is .editmode
   if(containsClass){
     //switch to .editmode
@@ -85,7 +85,7 @@ var editTask=function(){
     editBtn.innerText="Save";
   }
   //toggle .editmode on the parent.
-  listItem.classList.toggle("task-block__list-item_editMode");
+  listItem.classList.toggle("task-block__list-item_edit-mode");
 };
 
 

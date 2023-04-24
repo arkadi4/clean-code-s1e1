@@ -161,11 +161,11 @@
   display: none;
 }
 
-.task-block .task-block__list-item.task-block__list-item_editMode .input[type="text"] {
+.task-block .task-block__list-item.task-block__list-item_edit-mode .input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.task-block .task-block__list-item.task-block__list-item_editMode .label {
+.task-block .task-block__list-item.task-block__list-item_edit-mode .label {
   display: none;
 }
