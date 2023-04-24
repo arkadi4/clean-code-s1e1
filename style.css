@@ -33,7 +33,9 @@
   margin: 0 auto 0;
 }
 
-.task-block__input, .task-block__label, .section-for-adding__input{
+.task-block__input, 
+.task-block__label, 
+.section-for-adding__input{
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -48,11 +50,13 @@
   padding: 0px;
 }
 
-.task-block__list-item, .task-block__title {
+.task-block__list-item, 
+.task-block__title {
   list-style: none;
 }
 
-.input, .button{
+.input, 
+.button{
   outline: none;
 }
 
